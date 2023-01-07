@@ -1,0 +1,382 @@
+<main id="main" class="main">
+    
+    <section id="home">
+        <div class="overlay"></div>
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-12 col-sm-12">
+                         <div class="home-info">
+                        <form action="/tahmin" method="POST">
+                            <fieldset>
+                                <center>
+                                  <div class="row">
+                                         <div id="contact-form">
+
+                                            <!-- numerik değerler -->
+                                            <!-- age, daily rate, distance from home,hourly_rate, monthly rate, num_companies_worked, percent_salary_hike, performance rating, total_working_years, training_times_last_year, years_at_company, years_in_current_role, years_sinclast_promotion, years_with_current_manager -->
+                                            
+                                            <div class="item">
+                                                <label for="Age">Yaş</label><br>
+                                                <div class="input-item width-full">
+                                                <input style="color: black" type="text" name="Age" id="Age" value=""><br>
+
+                                            <div class="item">
+                                                <label for="DailyRate">Daily Rate</label><br>
+                                                <div class="input-item width-full">
+                                                <input style="color: black" type="text" name="DailyRate" id="DailyRate" value=""><br>
+
+                                            <div class="item">
+                                                <label for="NumCompaniesWorked">Çalışılan Şirket Sayısı</label><br>
+                                                <div class="input-item width-full">
+                                                <input style="color: black" type="text" name="NumCompaniesWorked" id="NumCompaniesWorked" value=""><br>
+
+                                            <div class="item">
+                                                <label for="PercentSalaryHike">Maaş Zammı</label><br>
+                                                <div class="input-item width-full">
+                                                <input style="color: black" type="text" name="PercentSalaryHike" id="PercentSalaryHike" value=""><br>
+
+                                            <div class="item">
+                                                <label for="PerformanceRating">Performans</label><br>
+                                                <div class="input-item width-full">
+                                                <input style="color: black" type="text" name="PerformanceRating" id="PerformanceRating" value=""><br>
+
+                                            <div class="item">
+                                                <label for="TotalWorkingYears">Toplam Çalışma Süresi (Yıl)</label><br>
+                                                <div class="input-item width-full">
+                                                <input style="color: black" type="text" name="TotalWorkingYears" id="TotalWorkingYears" value=""><br>
+
+                                            <div class="item">
+                                                <label for="TrainingTimesLastYear">Önceki Yıl Alınan Eğitim Sayısı</label><br>
+                                                <div class="input-item width-full">
+                                                <input style="color: black" type="text" name="TrainingTimesLastYear" id="TrainingTimesLastYear" value=""><br>
+
+                                            <div class="item">
+                                                <label for="YearsAtCompany">Şirketteki Çalışılan Yıl Sayısı</label><br>
+                                                <div class="input-item width-full">
+                                                <input style="color: black" type="text" name="YearsAtCompany" id="YearsAtCompany" value=""><br>
+
+                                            <div class="item">
+                                                <label for="YearsInCurrentRole">Aynı Roldeki Geçirilen Yıl Sayısı</label><br>
+                                                <div class="input-item width-full">
+                                                <input style="color: black" type="text" name="YearsInCurrentRole" id="YearsInCurrentRole" value=""><br>
+
+                                            <div class="item">
+                                                <label for="YearsSinceLastPromotion">Son Zamdan Beri Geçen Yıl Sayısı</label><br>
+                                                <div class="input-item width-full">
+                                                <input style="color: black" type="text" name="YearsSinceLastPromotion" id="YearsSinceLastPromotion" value=""><br>
+
+                                            <div class="item">
+                                                <label for="Education">Eğitim</label><br>
+                                                <div class="input-item width-full">
+                                                <input style="color: black" type="text" name="Education" id="Education" value=""><br>
+
+                                            <div class="item">
+                                                <label for="YearsWithCurrentManager">Aynı Yöneticiyle Geçirilen Yıl Sayısı </label><br>
+                                                <div class="input-item width-full">
+                                                <input style="color: black" type="text" name="YearsWithCurrentManager" id="YearsWithCurrentManager" value=""><br>
+
+                                                <!-- Burada sıkıntı çıkabilir belki  -->
+                                                <div class="item">
+                                                    <label for="WorkLifeBalance">İş-Hayat Dengesi </label><br>
+                                                    <div class="input-item width-full">
+                                                    <input style="color: black" type="text" name="WorkLifeBalance" id="WorkLifeBalance" value=""><br>
+
+                                            <!-- select opitons -->
+                                            <!--  business_travel, department, education_field, job_role,  -->
+
+                                                <div class="item">
+                                               <label for="BusinessTravel">İş Seyehati Sıklığı</label><br>
+                                               <select name="BusinessTravel" id="BusinessTravel">
+                                                  <option value="Non-Travel">Hiç</option>
+                                                  <option value="Travel_Rarely">Nadiren</option>
+                                                  <option value="Travel_Frequently">Sık sık </option>
+                                                </select>
+                                                </div>
+
+                                                <div class="item">
+                                                    <label for="Department">Departman</label><br>
+                                                    <select name="Department" id="Department">
+                                                       <option value="Research & Development">Ar & Ge</option>
+                                                       <option value="Sales">Satış</option>
+                                                       <option value="Human Resources"> İnsan Kaynakları  </option>
+                                                     </select>
+                                                     </div>
+
+                                                <div class="item">
+                                                <label for="EducationField">Eğitim Alanı</label><br>
+                                                <select name="EducationField" id="EducationField">
+                                                    <option value="Medical">Sağlık</option>
+                                                    <option value="Technical Degree">Teknik</option>
+                                                    <option value="Life Science"> Yaşam Bilimleri </option>
+                                                    <option value="Marketing"> Pazarlama </option>
+                                                    <option value="Other"> Diğer </option>
+                                                    <option value="Human Resources" > İnsan Kaynakları </option>
+                                                    </select>
+                                                    </div>
+
+                                                <div class="item">
+                                                    <label for="JobRole"> İş Rolü </label><br>
+                                                    <select name="JobRole" id="JobRole">
+                                                        <option value="Laboratuary Technician">Laboratuvar Teknisyeni</option>
+                                                        <option value="Sales Executive">Satış Yöneticisi</option>
+                                                        <option value="Manager">Yönetici</option>
+                                                        <option value="Research Scientist">Araştırma Bilimcisi</option>
+                                                        <option value="Human Resources">İnsan Kaynakları</option>
+                                                        <option value="Manufacturing Director" >Üretim Yöneticisi</option>
+                                                        <option value="Healthcare Representative">Sağlık Temsilcisi</option>
+                                                        <option value="Research Director" >Araştırma Yöneticisi </option>
+                                                        <option value="Sales Representative">Satış Temsilcisi</option>
+                                                        </select>
+                                                        </div>
+                                              
+
+
+                                            <!--  checkboxlar -->
+                                            <!-- environment_satisfaction, gender, job_involvement, job_level,job_satisfaction, marital_Status,overtime, relations_satisfaction, stock_options_level, work_life_balance -->
+
+                                            <div class="item">
+                                                <label for="EnvironmentSatisfaction">Ortam Memnuniyeti</label><br>
+                                                <div class="input-item">
+                                                 1
+                                                <input  style="color: rgb(255, 255, 255)" type="radio" name="EnvironmentSatisfaction1" id="EnvironmentSatisfaction1" value="1" >
+                                               </div>
+
+                                               <div class="input-item">
+                                                2
+                                               <input  style="color: rgb(255, 255, 255)" type="radio" name="EnvironmentSatisfaction2" id="EnvironmentSatisfaction2" value="2" >
+                                              </div>
+
+                                              <div class="input-item">
+                                                3
+                                               <input  style="color: rgb(255, 255, 255)" type="radio" name="EnvironmentSatisfaction3" id="EnvironmentSatisfaction3" value="3" >
+                                              </div>
+
+                                              <div class="input-item">
+                                                4
+                                               <input  style="color: rgb(255, 255, 255)" type="radio" name="EnvironmentSatisfaction4" id="EnvironmentSatisfaction4" value="4" >
+                                              </div>
+                                               
+                                            </div>
+
+
+                                            <div class="item">
+                                                <label for="MaritalStatus">Medeni Durum </label><br>
+                                                <div class="input-item">
+                                                Evli
+                                                <input  style="color: rgb(255, 255, 255)" type="radio" name="Married" id="Married" value="Married" >
+                                               </div>
+
+                                               <div class="input-item">
+                                                Bekar
+                                               <input  style="color: rgb(255, 255, 255)" type="radio" name="Single" id="Single" value="Single" >
+                                              </div>
+
+                                               <div class="input-item">
+                                                Boşanmış 
+                                               <input  style="color: rgb(255, 255, 255)" type="radio" name="Divorced" id="Divorced" value="Divorced" >
+                                              </div>
+                                               
+                                            </div>
+
+
+
+
+                                            <div class="item">
+                                                <label for="JobInvolvement">İşe Dahillik </label><br>
+                                                <div class="input-item">
+                                                 1
+                                                <input  style="color: rgb(255, 255, 255)" type="radio" name="JobInvolvement1" id="JobInvolvement1" value="1" >
+                                               </div>
+
+                                               <div class="input-item">
+                                                2
+                                               <input  style="color: rgb(255, 255, 255)" type="radio" name="JobInvolvement2" id="JobInvolvement2" value="2" >
+                                              </div>
+
+                                              <div class="input-item">
+                                                3
+                                               <input  style="color: rgb(255, 255, 255)" type="radio" name="JobInvolvement3" id="JobInvolvement3" value="3" >
+                                              </div>
+
+                                              <div class="input-item">
+                                                4
+                                               <input  style="color: rgb(255, 255, 255)" type="radio" name="JobInvolvement4" id="JobInvolvement4" value="4" >
+                                              </div>
+                                               
+                                            </div>
+
+
+
+                                            <div class="item">
+                                                <label for="JobLevel">İşe Dahillik </label><br>
+                                                <div class="input-item">
+                                                 1
+                                                <input  style="color: rgb(255, 255, 255)" type="radio" name="JobLevel1" id="JobLevel1" value="1" >
+                                               </div>
+
+                                               <div class="input-item">
+                                                2
+                                               <input  style="color: rgb(255, 255, 255)" type="radio" name="JobLevel2" id="JobLevel2" value="2" >
+                                              </div>
+
+                                              <div class="input-item">
+                                                3
+                                               <input  style="color: rgb(255, 255, 255)" type="radio" name="JobLevel3" id="JobLevel3" value="3" >
+                                              </div>
+
+                                              <div class="input-item">
+                                                4
+                                               <input  style="color: rgb(255, 255, 255)" type="radio" name="JobLevel4" id="JobLevel4" value="4" >
+                                              </div>
+
+                                              <div class="input-item">
+                                                5
+                                               <input  style="color: rgb(255, 255, 255)" type="radio" name="JobLevel5" id="JobLevel5" value="5" >
+                                              </div>
+                                               
+                                            </div>
+
+
+                                            <div class="item">
+                                                <label for="JobSatisfaction">Ortam Memnuniyeti</label><br>
+                                                <div class="input-item">
+                                                 1
+                                                <input  style="color: rgb(255, 255, 255)" type="radio" name="JobSatisfaction1" id="JobSatisfaction1" value="1" >
+                                               </div>
+
+                                               <div class="input-item">
+                                                2
+                                               <input  style="color: rgb(255, 255, 255)" type="radio" name="JobSatisfaction2" id="JobSatisfaction2" value="2" >
+                                              </div>
+
+                                              <div class="input-item">
+                                                3
+                                               <input  style="color: rgb(255, 255, 255)" type="radio" name="JobSatisfaction3" id="JobSatisfaction3" value="3" >
+                                              </div>
+
+                                              <div class="input-item">
+                                                4
+                                               <input  style="color: rgb(255, 255, 255)" type="radio" name="JobSatisfaction4" id="JobSatisfaction4" value="4" >
+                                              </div>
+                                               
+                                            </div>
+
+
+                                            <div class="item">
+                                                <label for="Gender">Cinsiyet </label><br>
+                                                <div class="input-item">
+                                                 Kadın
+                                                <input  style="color: rgb(255, 255, 255)" type="radio" name="Female" id="Female" value="Female" >
+                                               </div>
+
+                                               <div class="input-item">
+                                                Erkek
+                                               <input  style="color: rgb(255, 255, 255)" type="radio" name="Male" id="Male" value="Male" >
+                                              </div>
+                                               
+                                            </div>
+
+                                            <div class="item">
+                                                <label for="OverTime">Mesai </label><br>
+                                                <div class="input-item">
+                                                 Evet
+                                                <input  style="color: rgb(255, 255, 255)" type="radio" name="Yes" id="Yes" value="Yes" >
+                                               </div>
+
+                                               <div class="input-item">
+                                                No
+                                               <input  style="color: rgb(255, 255, 255)" type="radio" name="No" id="No" value="No" >
+                                              </div>
+                                               
+                                            </div>
+                                            
+
+                                            <div class="item">
+                                                <label for="RelationshipSatisfaction">Ortam Memnuniyeti</label><br>
+                                                <div class="input-item">
+                                                 1
+                                                <input  style="color: rgb(255, 255, 255)" type="radio" name="RelationshipSatisfaction1" id="RelationshipSatisfaction1" value="1" >
+                                               </div>
+
+                                               <div class="input-item">
+                                                2
+                                               <input  style="color: rgb(255, 255, 255)" type="radio" name="RelationshipSatisfaction2" id="RelationshipSatisfaction2" value="2" >
+                                              </div>
+
+                                              <div class="input-item">
+                                                3
+                                               <input  style="color: rgb(255, 255, 255)" type="radio" name="RelationshipSatisfaction3" id="RelationshipSatisfaction3" value="3" >
+                                              </div>
+
+                                              <div class="input-item">
+                                                4
+                                               <input  style="color: rgb(255, 255, 255)" type="radio" name="RelationshipSatisfaction4" id="RelationshipSatisfaction4" value="4" >
+                                              </div>
+                                               
+                                            </div>
+
+                                            <div class="item">
+                                                <label for="StockOptionLevel">Ortam Memnuniyeti</label><br>
+                                                <div class="input-item">
+                                                 0
+                                                <input  style="color: rgb(255, 255, 255)" type="radio" name="StockOptionLevel0" id="StockOptionLevel0" value="0" >
+                                               </div>
+
+                                               <div class="input-item">
+                                                1
+                                               <input  style="color: rgb(255, 255, 255)" type="radio" name="StockOptionLevel1" id="StockOptionLevel1" value="1" >
+                                              </div>
+
+                                              <div class="input-item">
+                                                2
+                                               <input  style="color: rgb(255, 255, 255)" type="radio" name="StockOptionLevel2" id="StockOptionLevel2" value="2" >
+                                              </div>
+
+                                              <div class="input-item">
+                                                3
+                                               <input  style="color: rgb(255, 255, 255)" type="radio" name="StockOptionLevel3" id="StockOptionLevel3" value="3" >
+                                              </div>
+                                               
+                                            </div>
+
+
+
+                                           <div class="row">
+                                            <div class="item">
+                                              <div class="col-sm-12">
+                                                <button  type="submit" id="submit" name="submit">Tahmin Et</button>
+                                              </div>
+                                            </div>
+                                          </div>
+
+
+                                          <div class="row">
+                                            <div id="output" style="color: aliceblue;">
+                                                <center><br>
+                                                    <output> <strong>{{op1}}</strong></output><br><output><strong>{{op2}}</strong></output>
+                                                </center>
+                                            </div>
+                                          </div>
+
+                                          </div>
+
+        
+                                              
+                                            </div>
+                                          </div>
+                                          </div>
+                                        </div>
+                        
+                                      </div>
+                            </center>
+                            </fieldset>
+                        
+                        </form>
+                        
+                        
+          </div>
+     </section>
+
+
+</main>

@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Dashboard - NiceAdmin Bootstrap Template</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="../static/assets/img/favicon.png" rel="icon">
+    <link href="../static/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="../static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../static/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="../static/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="../static/assets/vendor/quill/quill.snow.css" rel="stylesheet">
+    <link href="../static/assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+    <link href="../static/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="../static/assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="../static/assets/css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top d-flex align-items-center">
+
+      <div class="d-flex align-items-center justify-content-between">
+        <a href="index" class="logo d-flex align-items-center">
+          <img src="../static/assets/img/logo.png" alt="">
+          <span class="d-none d-lg-block">NiceAdmin</span>
+        </a>
+        <i class="bi bi-list toggle-sidebar-btn"></i>
+      </div><!-- End Logo -->
+
+      <div class="search-bar">
+        <form class="search-form d-flex align-items-center" method="POST" action="#">
+          <input type="text" name="query" placeholder="Search" title="Enter search keyword">
+          <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+        </form>
+      </div><!-- End Search Bar -->
+
+      <nav class="header-nav ms-auto">
+        <ul class="d-flex align-items-center">
+
+          <li class="nav-item d-block d-lg-none">
+            <a class="nav-link nav-icon search-bar-toggle " href="#">
+              <i class="bi bi-search"></i>
+            </a>
+          </li><!-- End Search Icon-->
+
+          <li class="nav-item dropdown">
+
+            <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+              <i class="bi bi-bell"></i>
+              <span class="badge bg-primary badge-number">4</span>
+            </a><!-- End Notification Icon -->
+
+            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
+              <li class="dropdown-header">
+                You have 4 new notifications
+                <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+
+              <li class="notification-item">
+                <i class="bi bi-exclamation-circle text-warning"></i>
+                <div>
+                  <h4>Lorem Ipsum</h4>
+                  <p>Quae dolorem earum veritatis oditseno</p>
+                  <p>30 min. ago</p>
+                </div>
+              </li>
+
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+
+              <li class="notification-item">
+                <i class="bi bi-x-circle text-danger"></i>
+                <div>
+                  <h4>Atque rerum nesciunt</h4>
+                  <p>Quae dolorem earum veritatis oditseno</p>
+                  <p>1 hr. ago</p>
+                </div>
+              </li>
+
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+
+              <li class="notification-item">
+                <i class="bi bi-check-circle text-success"></i>
+                <div>
+                  <h4>Sit rerum fuga</h4>
+                  <p>Quae dolorem earum veritatis oditseno</p>
+                  <p>2 hrs. ago</p>
+                </div>
+              </li>
+
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+
+              <li class="notification-item">
+                <i class="bi bi-info-circle text-primary"></i>
+                <div>
+                  <h4>Dicta reprehenderit</h4>
+                  <p>Quae dolorem earum veritatis oditseno</p>
+                  <p>4 hrs. ago</p>
+                </div>
+              </li>
+
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li class="dropdown-footer">
+                <a href="#">Show all notifications</a>
+              </li>
+
+            </ul><!-- End Notification Dropdown Items -->
+
+          </li><!-- End Notification Nav -->
+
+          <li class="nav-item dropdown">
+
+            <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+              <i class="bi bi-chat-left-text"></i>
+              <span class="badge bg-success badge-number">3</span>
+            </a><!-- End Messages Icon -->
+
+            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages">
+              <li class="dropdown-header">
+                You have 3 new messages
+                <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+
+              <li class="message-item">
+                <a href="#">
+                  <img src="../static/assets/img/messages-1.jpg" alt="" class="rounded-circle">
+                  <div>
+                    <h4>Maria Hudson</h4>
+                    <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                    <p>4 hrs. ago</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+
+              <li class="message-item">
+                <a href="#">
+                  <img src="../static/assets/img/messages-2.jpg" alt="" class="rounded-circle">
+                  <div>
+                    <h4>Anna Nelson</h4>
+                    <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                    <p>6 hrs. ago</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+
+              <li class="message-item">
+                <a href="#">
+                  <img src="../static/assets/img/messages-3.jpg" alt="" class="rounded-circle">
+                  <div>
+                    <h4>David Muldon</h4>
+                    <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                    <p>8 hrs. ago</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+
+              <li class="dropdown-footer">
+                <a href="#">Show all messages</a>
+              </li>
+
+            </ul><!-- End Messages Dropdown Items -->
+
+          </li><!-- End Messages Nav -->
+
+          <li class="nav-item dropdown pe-3">
+
+            <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+              <img src="../static/assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
+              <span class="d-none d-md-block dropdown-toggle ps-2">K. Anderson</span>
+            </a><!-- End Profile Iamge Icon -->
+
+            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+              <li class="dropdown-header">
+                <h6>Kevin Anderson</h6>
+                <span>Web Designer</span>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+
+              <li>
+                <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                  <i class="bi bi-person"></i>
+                  <span>My Profile</span>
+                </a>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+
+              <li>
+                <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                  <i class="bi bi-gear"></i>
+                  <span>Account Settings</span>
+                </a>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+
+              <li>
+                <a class="dropdown-item d-flex align-items-center" href="pages-faq.html">
+                  <i class="bi bi-question-circle"></i>
+                  <span>Need Help?</span>
+                </a>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+
+              <li>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <i class="bi bi-box-arrow-right"></i>
+                  <span>Sign Out</span>
+                </a>
+              </li>
+
+            </ul><!-- End Profile Dropdown Items -->
+          </li><!-- End Profile Nav -->
+
+        </ul>
+      </nav><!-- End Icons Navigation -->
+
+    </header><!-- End Header -->
+
+
+
+
+
+
+    <!-- ======= Sidebar ======= -->
+    <aside id="sidebar" class="sidebar">
+
+      <ul class="sidebar-nav" id="sidebar-nav">
+
+        <li class="nav-item">
+          <a class="nav-link " href="index.html">
+            <i class="bi bi-grid"></i>
+            <span>Dashboard</span>
+          </a>
+        </li><!-- End Dashboard Nav -->
+
+        <li class="nav-item">
+          <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
+            <i class="bi bi-menu-button-wide"></i><span>Components</span><i class="bi bi-chevron-down ms-auto"></i>
+          </a>
+          <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+            <li>
+              <a href="components-alerts.html">
+                <i class="bi bi-circle"></i><span>Alerts</span>
+              </a>
+            </li>
+            <li>
+              <a href="components-accordion.html">
+                <i class="bi bi-circle"></i><span>Accordion</span>
+              </a>
+            </li>
+            <li>
+              <a href="components-badges.html">
+                <i class="bi bi-circle"></i><span>Badges</span>
+              </a>
+            </li>
+            <li>
+              <a href="components-breadcrumbs.html">
+                <i class="bi bi-circle"></i><span>Breadcrumbs</span>
+              </a>
+            </li>
+            <li>
+              <a href="components-buttons.html">
+                <i class="bi bi-circle"></i><span>Buttons</span>
+              </a>
+            </li>
+            <li>
+              <a href="components-cards.html">
+                <i class="bi bi-circle"></i><span>Cards</span>
+              </a>
+            </li>
+            <li>
+              <a href="components-carousel.html">
+                <i class="bi bi-circle"></i><span>Carousel</span>
+              </a>
+            </li>
+            <li>
+              <a href="components-list-group.html">
+                <i class="bi bi-circle"></i><span>List group</span>
+              </a>
+            </li>
+            <li>
+              <a href="components-modal.html">
+                <i class="bi bi-circle"></i><span>Modal</span>
+              </a>
+            </li>
+            <li>
+              <a href="components-tabs.html">
+                <i class="bi bi-circle"></i><span>Tabs</span>
+              </a>
+            </li>
+            <li>
+              <a href="components-pagination.html">
+                <i class="bi bi-circle"></i><span>Pagination</span>
+              </a>
+            </li>
+            <li>
+              <a href="components-progress.html">
+                <i class="bi bi-circle"></i><span>Progress</span>
+              </a>
+            </li>
+            <li>
+              <a href="components-spinners.html">
+                <i class="bi bi-circle"></i><span>Spinners</span>
+              </a>
+            </li>
+            <li>
+              <a href="components-tooltips.html">
+                <i class="bi bi-circle"></i><span>Tooltips</span>
+              </a>
+            </li>
+          </ul>
+        </li><!-- End Components Nav -->
+
+        <li class="nav-item">
+          <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
+            <i class="bi bi-journal-text"></i><span>Forms</span><i class="bi bi-chevron-down ms-auto"></i>
+          </a>
+          <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+            <li>
+              <a href="forms-elements.html">
+                <i class="bi bi-circle"></i><span>Form Elements</span>
+              </a>
+            </li>
+            <li>
+              <a href="forms-layouts.html">
+                <i class="bi bi-circle"></i><span>Form Layouts</span>
+              </a>
+            </li>
+            <li>
+              <a href="forms-editors.html">
+                <i class="bi bi-circle"></i><span>Form Editors</span>
+              </a>
+            </li>
+            <li>
+              <a href="forms-validation.html">
+                <i class="bi bi-circle"></i><span>Form Validation</span>
+              </a>
+            </li>
+          </ul>
+        </li><!-- End Forms Nav -->
+
+        <li class="nav-item">
+          <a class="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
+            <i class="bi bi-layout-text-window-reverse"></i><span>Tables</span><i
+              class="bi bi-chevron-down ms-auto"></i>
+          </a>
+          <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+            <li>
+              <a href="tables-general.html">
+                <i class="bi bi-circle"></i><span>General Tables</span>
+              </a>
+            </li>
+            <li>
+              <a href="tables-data.html">
+                <i class="bi bi-circle"></i><span>Data Tables</span>
+              </a>
+            </li>
+          </ul>
+        </li><!-- End Tables Nav -->
+
+        <li class="nav-item">
+          <a class="nav-link collapsed" data-bs-target="#charts-nav" data-bs-toggle="collapse" href="#">
+            <i class="bi bi-bar-chart"></i><span>Charts</span><i class="bi bi-chevron-down ms-auto"></i>
+          </a>
+          <ul id="charts-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+            <li>
+              <a href="charts-chartjs.html">
+                <i class="bi bi-circle"></i><span>Chart.js</span>
+              </a>
+            </li>
+            <li>
+              <a href="charts-apexcharts.html">
+                <i class="bi bi-circle"></i><span>ApexCharts</span>
+              </a>
+            </li>
+            <li>
+              <a href="charts-echarts.html">
+                <i class="bi bi-circle"></i><span>ECharts</span>
+              </a>
+            </li>
+          </ul>
+        </li><!-- End Charts Nav -->
+
+        <li class="nav-item">
+          <a class="nav-link collapsed" data-bs-target="#icons-nav" data-bs-toggle="collapse" href="#">
+            <i class="bi bi-gem"></i><span>Icons</span><i class="bi bi-chevron-down ms-auto"></i>
+          </a>
+          <ul id="icons-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+            <li>
+              <a href="icons-bootstrap.html">
+                <i class="bi bi-circle"></i><span>Bootstrap Icons</span>
+              </a>
+            </li>
+            <li>
+              <a href="icons-remix.html">
+                <i class="bi bi-circle"></i><span>Remix Icons</span>
+              </a>
+            </li>
+            <li>
+              <a href="icons-boxicons.html">
+                <i class="bi bi-circle"></i><span>Boxicons</span>
+              </a>
+            </li>
+          </ul>
+        </li><!-- End Icons Nav -->
+
+        <li class="nav-heading">Pages</li>
+
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="users-profile.html">
+            <i class="bi bi-person"></i>
+            <span>Profile</span>
+          </a>
+        </li><!-- End Profile Page Nav -->
+
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="pages-faq.html">
+            <i class="bi bi-question-circle"></i>
+            <span>F.A.Q</span>
+          </a>
+        </li><!-- End F.A.Q Page Nav -->
+
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="pages-contact.html">
+            <i class="bi bi-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </li><!-- End Contact Page Nav -->
+
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="pages-register.html">
+            <i class="bi bi-card-list"></i>
+            <span>Register</span>
+          </a>
+        </li><!-- End Register Page Nav -->
+
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="pages-login.html">
+            <i class="bi bi-box-arrow-in-right"></i>
+            <span>Login</span>
+          </a>
+        </li><!-- End Login Page Nav -->
+
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="pages-error-404.html">
+            <i class="bi bi-dash-circle"></i>
+            <span>Error 404</span>
+          </a>
+        </li><!-- End Error 404 Page Nav -->
+
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="pages-blank.html">
+            <i class="bi bi-file-earmark"></i>
+            <span>Blank</span>
+          </a>
+        </li><!-- End Blank Page Nav -->
+
+      </ul>
+
+    </aside><!-- End Sidebar-->
+
+
+
+
+
+
+    <main id="main" class="main">
+
+      <section id="home">
+        <div class="overlay"></div>
+        <div class="container">
+
+          <div class="baslik">
+            <h4>Kişi Analiz Et</h4>
+          </div>
+
+          <div class="row mt-5">
+
+            <div class="col-md-12 col-sm-12">
+              <div class="home-info">
+                <form action="/" method="POST">
+                  <fieldset>
+                    <center>
+                      <div class="row mt-5">
+                        <div id="contact-form">
+
+                          <!-- numerik değerler -->
+                          <!-- age, daily rate, distance from home,hourly_rate, monthly rate, num_companies_worked, percent_salary_hike, performance rating, total_working_years, training_times_last_year, years_at_company, years_in_current_role, years_sinclast_promotion, years_with_current_manager -->
+                          <div class="">
+                            <div class="row">
+                              <div class="item col-md-4">
+                                <label for="Age">Yaş</label><br>
+                                <div class="input-div">
+                                  <div class="input-item width-full">
+                                    <input style="color: black" type="text" name="Age" id="Age" value=""><br>
+                                  </div>
+                                </div>
+                              </div>
+
+
+
+                              <div class="item col-md-4">
+                                <label for="DailyRate">Daily Rate</label><br>
+                                <div class="input-div">
+                                  <div class="input-item width-full">
+                                    <input style="color: black" type="text" name="DailyRate" id="DailyRate"
+                                      value=""><br>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="item col-md-4">
+                                <label for="Education">Education</label><br>
+                                <div class="input-div">
+                                  <div class="input-item width-full">
+                                    <input style="color: black" type="text" name="Education" id="Education"
+                                      value=""><br>
+                                  </div>
+                                </div>
+                              </div>
+
+
+                              <div class="item col-md-4">
+                                <label for="MonthlyIncome">Monthly Income</label><br>
+                                <div class="input-div">
+                                  <div class="input-item width-full">
+                                    <input style="color: black" type="text" name="MonthlyIncome" id="MonthlyIncome"
+                                      value=""><br>
+                                  </div>
+                                </div>
+                              </div>
+
+
+                              <div class="item col-md-4">
+                                <label for="EmployeeNumber">EmployeeNumber</label><br>
+                                <div class="input-div">
+                                  <div class="input-item width-full">
+                                    <input style="color: black" type="text" name="EmployeeNumber" id="EmployeeNumber"
+                                      value=""><br>
+                                  </div>
+                                </div>
+                              </div>
+
+
+                              <div class="item col-md-4">
+                                <label for="YearsWithCurrManager">YearsWithCurrManager</label><br>
+                                <div class="input-div">
+                                  <div class="input-item width-full">
+                                    <input style="color: black" type="text" name="YearsWithCurrManager" id="YearsWithCurrManager"
+                                      value=""><br>
+                                  </div>
+                                </div>
+                              </div>
+
+
+
+
+                              <div class="item col-md-4">
+                                <label for="HourlyRate">Hourly Rate</label><br>
+                                <div class="input-div">
+                                  <div class="input-item width-full">
+                                    <input style="color: black" type="text" name="HourlyRate" id="HourlyRate"
+                                      value=""><br>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="item col-md-4">
+                                <label for="MonthlyRate">monthly Rate</label><br>
+                                <div class="input-div">
+                                  <div class="input-item width-full">
+                                    <input style="color: black" type="text" name="MonthlyRate" id="MonthlyRate"
+                                      value=""><br>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="item col-md-4">
+                                <label for="DistanceFromHome">Evden Uzaklık</label><br>
+                                <div class="input-div">
+                                  <div class="input-item width-full">
+                                    <input style="color: black" type="text" name="DistanceFromHome"
+                                      id="DistanceFromHome" value=""><br>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="item col-md-4">
+                                <label for="NumCompaniesWorked">Çalışılan Şirket Sayısı</label><br>
+                                <div class="input-div">
+                                  <div class="input-item width-full">
+                                    <input style="color: black" type="text" name="NumCompaniesWorked"
+                                      id="NumCompaniesWorked" value=""><br>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="item col-md-4">
+                                <label for="PercentSalaryHike">Maaş Zammı</label><br>
+                                <div class="input-div">
+                                  <div class="input-item width-full">
+                                    <input style="color: black" type="text" name="PercentSalaryHike"
+                                      id="PercentSalaryHike" value=""><br>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="item col-md-4">
+                                <label for="PerformanceRating">Performans</label><br>
+                                <div class="input-div">
+                                  <div class="input-item width-full">
+                                    <input style="color: black" type="text" name="PerformanceRating"
+                                      id="PerformanceRating" value=""><br>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="item col-md-4">
+                                <label for="TotalWorkingYears">Toplam Çalışma Süresi (Yıl)</label><br>
+                                <div class="input-div">
+                                  <div class="input-item width-full">
+                                    <input style="color: black" type="text" name="TotalWorkingYears"
+                                      id="TotalWorkingYears" value=""><br>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="item col-md-4">
+                                <label for="TrainingTimesLastYear">Önceki Yıl Alınan Eğitim Sayısı</label><br>
+                                <div class="input-div">
+                                  <div class="input-item width-full">
+                                    <input style="color: black" type="text" name="TrainingTimesLastYear"
+                                      id="TrainingTimesLastYear" value=""><br>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="item col-md-4">
+                                <label for="YearsAtCompany">Şirketteki Çalışılan Yıl Sayısı</label><br>
+                                <div class="input-div">
+                                  <div class="input-item width-full">
+                                    <input style="color: black" type="text" name="YearsAtCompany" id="YearsAtCompany"
+                                      value=""><br>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="item col-md-4">
+                                <label for="YearsInCurrentRole">Aynı Roldeki Geçirilen Yıl Sayısı</label><br>
+                                <div class="input-div">
+                                  <div class="input-item width-full">
+                                    <input style="color: black" type="text" name="YearsInCurrentRole"
+                                      id="YearsInCurrentRole" value=""><br>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="item col-md-4">
+                                <label for="YearsSinceLastPromotion">Son Zamdan Beri Geçen Yıl Sayısı</label><br>
+                                <div class="input-div">
+                                  <div class="input-item width-full">
+                                    <input style="color: black" type="text" name="YearsSinceLastPromotion"
+                                      id="YearsSinceLastPromotion" value=""><br>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="item col-md-4">
+                                <label for="Education">Eğitim</label><br>
+                                <div class="input-div">
+                                  <div class="input-item width-full">
+                                    <input style="color: black" type="text" name="Education" id="Education"
+                                      value=""><br>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="item col-md-4">
+                                <label for="YearsWithCurrentManager">Aynı Yöneticiyle Geçirilen Yıl Sayısı </label><br>
+                                <div class="input-div">
+                                  <div class="input-item width-full">
+                                    <input style="color: black" type="text" name="YearsWithCurrentManager"
+                                      id="YearsWithCurrentManager" value=""><br>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <!-- Burada sıkıntı çıkabilir belki  -->
+                              <div class="item col-md-4" style="margin: auto;">
+                                <label for="WorkLifeBalance">İş-Hayat Dengesi </label><br>
+                                <div class="input-div">
+                                  <div class="input-item width-full">
+                                    <input style="color: black" type="text" name="WorkLifeBalance" id="WorkLifeBalance"
+                                      value=""><br>
+                                  </div>
+                                </div>
+                              </div>
+
+                            </div>
+                          </div>
+
+                          <!-- select opitons -->
+                          <!--  business_travel, department, education_field, job_role,  -->
+
+                          <div class="mt-5">
+                            <div class="row mt-5">
+
+                              <div class="item col-md-3">
+                                <label for="BusinessTravel">İş Seyehati Sıklığı</label><br>
+                                <div class="input-div">
+                                  <select name="BusinessTravel" id="BusinessTravel">
+                                    <option value="Non-Travel">Hiç</option>
+                                    <option value="Travel_Rarely">Nadiren</option>
+                                    <option value="Travel_Frequently">Sık sık </option>
+                                  </select>
+                                </div>
+                              </div>
+
+                              <div class="item col-md-3">
+                                <label for="Department">Departman</label><br>
+                                <div class="input-div">
+                                  <select name="Department" id="Department">
+                                    <option value="Research & Development">Ar & Ge</option>
+                                    <option value="Sales">Satış</option>
+                                    <option value="Human Resources"> İnsan Kaynakları </option>
+                                  </select>
+                                </div>
+                              </div>
+
+                              <div class="item col-md-3">
+                                <label for="EducationField">Eğitim Alanı</label><br>
+                                <div class="input-div">
+                                  <select name="EducationField" id="EducationField">
+                                    <option value="Medical">Sağlık</option>
+                                    <option value="Technical Degree">Teknik</option>
+                                    <option value="Life Science"> Yaşam Bilimleri </option>
+                                    <option value="Marketing"> Pazarlama </option>
+                                    <option value="Other"> Diğer </option>
+                                    <option value="Human Resources"> İnsan Kaynakları </option>
+                                  </select>
+                                </div>
+                              </div>
+
+                              <div class="item col-md-3">
+                                <label for="JobRole"> İş Rolü </label><br>
+                                <div class="input-div">
+                                  <select name="JobRole" id="JobRole">
+                                    <option value="Laboratuary Technician">Laboratuvar Teknisyeni</option>
+                                    <option value="Sales Executive">Satış Yöneticisi</option>
+                                    <option value="Manager">Yönetici</option>
+                                    <option value="Research Scientist">Araştırma Bilimcisi</option>
+                                    <option value="Human Resources">İnsan Kaynakları</option>
+                                    <option value="Manufacturing Director">Üretim Yöneticisi</option>
+                                    <option value="Healthcare Representative">Sağlık Temsilcisi</option>
+                                    <option value="Research Director">Araştırma Yöneticisi </option>
+                                    <option value="Sales Representative">Satış Temsilcisi</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+
+                          <!--  checkboxlar -->
+                          <!-- environment_satisfaction, gender, job_involvement, job_level,job_satisfaction, marital_Status,overtime, relations_satisfaction, stock_options_level, work_life_balance -->
+
+                          <div class="mt-5">
+                            <div class="row mt-5">
+                              <div class="item col-md-4">
+                                <label for="EnvironmentSatisfaction">Ortam Memnuniyeti</label><br>
+                                <div class="input-div">
+                                  <div class="input-item-chk">
+                                    1
+                                    <input style="color: rgb(255, 255, 255)" type="radio" name="EnvironmentSatisfaction"
+                                      id="EnvironmentSatisfaction" value="1">
+                                  </div>
+
+                                  <div class="input-item-chk">
+                                    2
+                                    <input style="color: rgb(255, 255, 255)" type="radio" name="EnvironmentSatisfaction"
+                                      id="EnvironmentSatisfaction" value="2">
+                                  </div>
+
+                                  <div class="input-item-chk">
+                                    3
+                                    <input style="color: rgb(255, 255, 255)" type="radio" name="EnvironmentSatisfaction"
+                                      id="EnvironmentSatisfaction" value="3">
+                                  </div>
+
+                                  <div class="input-item-chk">
+                                    4
+                                    <input style="color: rgb(255, 255, 255)" type="radio" name="EnvironmentSatisfaction"
+                                      id="EnvironmentSatisfaction" value="4">
+                                  </div>
+                                </div>
+                              </div>
+
+
+                              <div class="item col-md-4">
+                                <label for="MaritalStatus">Medeni Durum </label><br>
+                                <div class="input-div">
+                                  <div class="input-item-chk">
+                                    Evli
+                                    <input style="color: rgb(255, 255, 255)" type="radio" name="MaritalStatus"
+                                      id="MaritalStatus" value="Married">
+                                  </div>
+
+                                  <div class="input-item-chk">
+                                    Bekar
+                                    <input style="color: rgb(255, 255, 255)" type="radio" name="MaritalStatus"
+                                      id="MaritalStatus" value="Single">
+                                  </div>
+
+                                  <div class="input-item-chk">
+                                    Boşanmış
+                                    <input style="color: rgb(255, 255, 255)" type="radio" name="MaritalStatus"
+                                      id="Divorced" value="Divorced">
+                                  </div>
+                                </div>
+                              </div>
+
+
+
+
+                              <div class="item col-md-4">
+                                <label for="JobInvolvement">İşe Dahillik </label><br>
+                                <div class="input-div">
+                                  <div class="input-item-chk">
+                                    1
+                                    <input style="color: rgb(255, 255, 255)" type="radio" name="JobInvolvement"
+                                      id="JobInvolvement" value="1">
+                                  </div>
+
+                                  <div class="input-item-chk">
+                                    2
+                                    <input style="color: rgb(255, 255, 255)" type="radio" name="JobInvolvement"
+                                      id="JobInvolvement" value="2">
+                                  </div>
+
+                                  <div class="input-item-chk">
+                                    3
+                                    <input style="color: rgb(255, 255, 255)" type="radio" name="JobInvolvement"
+                                      id="JobInvolvement" value="3">
+                                  </div>
+
+                                  <div class="input-item-chk">
+                                    4
+                                    <input style="color: rgb(255, 255, 255)" type="radio" name="JobInvolvement"
+                                      id="JobInvolvement" value="4">
+                                  </div>
+                                </div>
+
+                              </div>
+
+
+
+                              <div class="item col-md-4">
+                                <label for="JobLevel">İş Seviyesi </label><br>
+                                <div class="input-div">
+                                  <div class="input-item-chk">
+                                    1
+                                    <input style="color: rgb(255, 255, 255)" type="radio" name="JobLevel" id="JobLevel"
+                                      value="1">
+                                  </div>
+
+                                  <div class="input-item-chk">
+                                    2
+                                    <input style="color: rgb(255, 255, 255)" type="radio" name="JobLevel" id="JobLevel"
+                                      value="2">
+                                  </div>
+
+                                  <div class="input-item-chk">
+                                    3
+                                    <input style="color: rgb(255, 255, 255)" type="radio" name="JobLevel" id="JobLevel"
+                                      value="3">
+                                  </div>
+
+                                  <div class="input-item-chk">
+                                    4
+                                    <input style="color: rgb(255, 255, 255)" type="radio" name="JobLevel" id="JobLevel"
+                                      value="4">
+                                  </div>
+
+                                  <div class="input-item-chk">
+                                    5
+                                    <input style="color: rgb(255, 255, 255)" type="radio" name="JobLevel" id="JobLevel"
+                                      value="5">
+                                  </div>
+                                </div>
+
+                              </div>
+
+
+                              <div class="item col-md-4">
+                                <label for="JobSatisfaction">İş Memnuniyeti</label><br>
+                                <div class="input-div">
+                                  <div class="input-item-chk">
+                                    1
+                                    <input style="color: rgb(255, 255, 255)" type="radio" name="JobSatisfaction"
+                                      id="JobSatisfaction" value="1">
+                                  </div>
+
+                                  <div class="input-item-chk">
+                                    2
+                                    <input style="color: rgb(255, 255, 255)" type="radio" name="JobSatisfaction"
+                                      id="JobSatisfaction" value="2">
+                                  </div>
+
+                                  <div class="input-item-chk">
+                                    3
+                                    <input style="color: rgb(255, 255, 255)" type="radio" name="JobSatisfaction"
+                                      id="JobSatisfaction" value="3">
+                                  </div>
+
+                                  <div class="input-item-chk">
+                                    4
+                                    <input style="color: rgb(255, 255, 255)" type="radio" name="JobSatisfaction"
+                                      id="JobSatisfaction" value="4">
+                                  </div>
+                                </div>
+
+                              </div>
+
+
+                              <div class="item col-md-4">
+                                <label for="Gender">Cinsiyet </label><br>
+                                <div class="input-div">
+                                  <div class="input-item-chk">
+                                    Kadın
+                                    <input style="color: rgb(255, 255, 255)" type="radio" name="Gender" id="Gender"
+                                      value="Female">
+                                  </div>
+
+                                  <div class="input-item-chk">
+                                    Erkek
+                                    <input style="color: rgb(255, 255, 255)" type="radio" name="Gender" id="Gender"
+                                      value="Male">
+                                  </div>
+                                </div>
+
+                              </div>
+
+                              <div class="item col-md-4">
+                                <label for="OverTime">Mesai </label><br>
+                                <div class="input-div">
+                                  <div class="input-item-chk">
+                                    Evet
+                                    <input style="color: rgb(255, 255, 255)" type="radio" name="OverTime" id="Overtime"
+                                      value="Yes">
+                                  </div>
+
+                                  <div class="input-item-chk">
+                                    Hayır
+                                    <input style="color: rgb(255, 255, 255)" type="radio" name="OverTime" id="OverTime"
+                                      value="No">
+                                  </div>
+                                </div>
+                              </div>
+
+
+                              <div class="item col-md-4">
+                                <label for="RelationshipSatisfaction">İlişki Memnuniyeti</label><br>
+                                <div class="input-div">
+                                  <div class="input-item-chk">
+                                    1
+                                    <input style="color: rgb(255, 255, 255)" type="radio"
+                                      name="RelationshipSatisfaction" id="RelationshipSatisfaction" value="1">
+                                  </div>
+
+                                  <div class="input-item-chk">
+                                    2
+                                    <input style="color: rgb(255, 255, 255)" type="radio"
+                                      name="RelationshipSatisfaction" id="RelationshipSatisfaction" value="2">
+                                  </div>
+
+                                  <div class="input-item-chk">
+                                    3
+                                    <input style="color: rgb(255, 255, 255)" type="radio"
+                                      name="RelationshipSatisfaction" id="RelationshipSatisfaction" value="3">
+                                  </div>
+
+                                  <div class="input-item-chk">
+                                    4
+                                    <input style="color: rgb(255, 255, 255)" type="radio"
+                                      name="RelationshipSatisfaction" id="RelationshipSatisfaction" value="4">
+                                  </div>
+                                </div>
+
+                              </div>
+
+                              <div class="item col-md-4">
+                                <label for="StockOptionLevel">Hisse Seviyesi</label><br>
+                                <div class="input-div">
+                                  <div class="input-item-chk">
+                                    0
+                                    <input style="color: rgb(255, 255, 255)" type="radio" name="StockOptionLevel"
+                                      id="StockOptionLevel" value="0">
+                                  </div>
+
+                                  <div class="input-item-chk">
+                                    1
+                                    <input style="color: rgb(255, 255, 255)" type="radio" name="StockOptionLevel"
+                                      id="StockOptionLevel" value="1">
+                                  </div>
+
+                                  <div class="input-item-chk">
+                                    2
+                                    <input style="color: rgb(255, 255, 255)" type="radio" name="StockOptionLevel"
+                                      id="StockOptionLevel" value="2">
+                                  </div>
+
+                                  <div class="input-item-chk">
+                                    3
+                                    <input style="color: rgb(255, 255, 255)" type="radio" name="StockOptionLevel"
+                                      id="StockOptionLevel" value="3">
+                                  </div>
+                                </div>
+
+                              </div>
+                            </div>
+                          </div>
+
+
+
+
+
+                          <div class="row">
+                            <div class="item">
+                              <div class="col-sm-12">
+                                <button type="submit" id="submit" name="submit">Tahmin Et</button>
+                              </div>
+                            </div>
+                          </div>
+
+
+                          <div class="row">
+                            <div id="output" style="color: aliceblue;">
+                              <center><br>
+                                <output> <strong>{{op1}}</strong></output><br><output><strong>{{op2}}</strong></output>
+                              </center>
+                            </div>
+                          </div>
+
+                        </div>
+
+
+
+                      </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        </center>
+        </fieldset>
+
+        </form>
+
+
+        </div>
+      </section>
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <p>Stratycs </p>
+
+
+    <!-- Vendor JS Files -->
+    <script src="../static/assets/vendor/apexcharts/apexcharts.min.js"></script>
+    <script src="../static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../static/assets/vendor/chart.js/chart.min.js"></script>
+    <script src="../static/assets/vendor/echarts/echarts.min.js"></script>
+    <script src="../static/assets/vendor/quill/quill.min.js"></script>
+    <script src="../static/assets/vendor/simple-datatables/simple-datatables.js"></script>
+    <script src="../static/assets/vendor/tinymce/tinymce.min.js"></script>
+    <script src="../static/assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="../static/assets/js/main.js"></script>
+  </body>
+
+  </html>
+
+
+</body>
+
+</html>
